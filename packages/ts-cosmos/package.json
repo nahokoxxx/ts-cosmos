@@ -1,0 +1,14 @@
+{
+  "name": "@ts-cosmos/lib",
+  "private": true,
+  "exports": {
+    "./clientFactory": "./clientFactory.ts",
+    "./models/*": "./models/*.ts"
+  },
+  "scripts": {
+    "generate": "tsx generate.ts"
+  },
+  "devDependencies": {
+    "ts-morph": "^20.0.0"
+  }
+}

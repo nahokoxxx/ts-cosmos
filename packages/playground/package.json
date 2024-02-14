@@ -1,0 +1,10 @@
+{
+  "name": "@ts-cosmos/playground",
+  "private": true,
+  "scripts": {
+    "start": "tsx main.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4"
+  }
+}
